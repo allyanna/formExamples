@@ -1,0 +1,8 @@
+body {
+    background-color: #ccc;
+}
+
+input[type=text] {
+    border: 1px red;
+    
+}

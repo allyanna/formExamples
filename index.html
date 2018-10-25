@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Form</title>
+<link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <form>
+      <label>First Name</label>
+      <input type="text" name="firstName" placeholder="first name"/>
+
+      <label>Middle Initial</label>
+      <input type="text" name="middleInitial" placeholder="middle initial"> 
+
+      <label>Last Name</label>
+      <input type="text" name="lastName" placeholder="last name"> <br> 
+
+      <label>Birthday</label>
+      <input type="text" name="birthday" placeholder="birthday"> 
+
+      <label>Radio</label>
+      <input type="radio" name="radio" /> <br> 
+
+      <label>Email</label>
+      <input type="email" name="email" placeholder="email" /> <br> 
+      
+      <label>Password</label>
+      <input type="password" name="password" /> <br> 
+
+      <label>Textarea</label>
+      <textarea name="tweet" cols="50" rows="25" placeholder="I hate snakeu"></textarea> <br>
+
+      <label>Calendar</label>
+      <input type="date" name="timeOfYear"> <br>
+
+      <label>Dropdown</label>
+      <!--Dropdown Selection-->
+      <select name="edu" multiple>
+        <option value="ns">North School</option>
+        <option value="sc">South School</option>
+        <option value="es">East School</option>
+        <option value="ws">West School</option>
+        <option value="nes">Northwest School</option>
+       <!--option*5 tab to make multiple options-->
+      </select> <br>
+
+      <!--<input type="submit/> or use below to submit a form"-->
+      <button type="Submit">Apply</button>
+      <button type="button" onclick="alert('Hello Snakeu')">Click here</button>
+
+    </form>
+</body>
+</html>
